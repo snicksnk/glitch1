@@ -49,9 +49,17 @@
     <div class="content">
       <div class="section">
         <h1 class="section-header section-header_neuroi">
-          Побочные эффекты нелецензионных нейроимплантов
+          Побочные эффекты нелицензионных нейроимплантов
         </h1>
-        <video class="content-video" autoplay loop>
+        <video
+          class="content-video"
+          autoplay
+          loop
+          muted
+          onstart="this.play();"
+          onended="this.play();"
+        >
+          <source src="img/neuroi.webm" type="video/webm" />
           <source src="img/neuroi.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -59,9 +67,17 @@
 
       <div class="section">
         <h1 class="section-header section-header_shaurma">
-          Я смотрел, как Ша-Лучи мерцают во тьме близ врат Тангейзера.
+          Я смотрел, как Шау-Лучи мерцают во тьме близ врат Тангейзера
         </h1>
-        <video class="content-video" autoplay loop>
+        <video
+          class="content-video"
+          autoplay
+          loop
+          muted
+          onstart="this.play();"
+          onended="this.play();"
+        >
+          <source src="img/shaurma.webm" type="video/webm" />
           <source src="img/shaurma.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -69,10 +85,12 @@
 
       <div class="section">
         <h1 class="section-header section-header_fall">
-          Выход из убежища 31
+          8 постоядерных шакалов из 10
         </h1>
         <img class="content-video" src="img/fall.jpg" />
       </div>
     </div>
+    <script>
+    </script>
   </body>
 </html>
